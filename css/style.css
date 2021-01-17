@@ -24,6 +24,11 @@ h1{
   vertical-align: 125px;
 }
 
+.spazio{
+  height: 306px;
+  border: 1px solid black;
+}
+
 .riga{
   margin-top: 50px;
 }
@@ -34,4 +39,8 @@ h1{
   width: 24%;
   border: 1px solid black;
   margin-left: 30px;
+}
+
+.container{
+  height: 100%;
 }
