@@ -24,11 +24,12 @@ h1{
   vertical-align: 125px;
 }
 
+/* +++questo non può essere giusto+++ */
 .spazio{
   height: 306px;
   border: 1px solid black;
 }
-
+/* end +++questo non può essere giusto+++ */
 .riga{
   margin-top: 50px;
 }
