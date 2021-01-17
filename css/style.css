@@ -8,18 +8,26 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+.container{
+  margin-top: 358px;
+}
+
 .title-logo-container{
+  width: 100%;
+  position: fixed;
+  top:0px;
+  z-index: 1;
   background-color: grey;
   border-bottom: 1px solid black;
 }
 
-.logo{
+.title-logo-container .logo{
   height: 300px;
   padding: 30px
 
 }
 
-h1{
+.title-logo-container h1{
   font-weight: 600px;
   font-size: 80px;
   display: inline;
