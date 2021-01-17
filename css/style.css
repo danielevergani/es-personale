@@ -4,21 +4,25 @@
   box-sizing: border-box;
 }
 
+.container{
+  margin-top: 358px;;
+}
 
 .title-logo-container{
   width: 100%;
   position: fixed;
+  top: 0px;
   background-color: grey;
   border-bottom: 1px solid black;
 }
 
-.logo{
+.title-logo-container .logo{
   height: 300px;
   padding: 30px
 
 }
 
-h1{
+.title-logo-container h1{
   font-size: 80px;
   display: inline;
   vertical-align: 125px;
@@ -40,8 +44,4 @@ h1{
   width: 24%;
   border: 1px solid black;
   margin-left: 30px;
-}
-
-.container{
-  height: 100%;
 }
