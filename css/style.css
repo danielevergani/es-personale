@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
 
 .title-logo-container{
   background-color: grey;
@@ -17,6 +20,7 @@
 }
 
 h1{
+  font-weight: 600px;
   font-size: 80px;
   display: inline;
   vertical-align: 125px;
@@ -41,9 +45,19 @@ h1{
 }
 
 .descrizione{
+  font-weight: 300px;
+  display: none;
   color: #000000;
   font-size: 80px;
   position: absolute;
-  bottom: 87%;
+  bottom: 85%;
   left: 8px;
+}
+
+.box:hover .descrizione{
+  display: inline;
+}
+
+.box:hover img{
+  opacity: 0.5;
 }
