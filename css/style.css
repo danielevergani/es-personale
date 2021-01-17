@@ -1,3 +1,22 @@
-body{
-  background-color: red;
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.title-logo-container{
+  background-color: grey;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  height: 300px;
+  padding: 30px
+
+}
+
+h1{
+  font-size: 80px;
+  display: inline;
+  vertical-align: 125px;
 }
