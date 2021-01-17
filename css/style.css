@@ -6,6 +6,8 @@
 
 
 .title-logo-container{
+  width: 100%;
+  position: fixed;
   background-color: grey;
   border-bottom: 1px solid black;
 }
